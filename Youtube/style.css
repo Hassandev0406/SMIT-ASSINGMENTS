@@ -1,0 +1,84 @@
+.navbar{text-align: center;
+color: rgb(143, 136, 136);
+overflow: auto;
+}
+.navbar a {color: rgb(92, 89, 89);
+width: 100%;
+padding: 12px;
+text-decoration: none;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.navbar a:hover{color: burlywood;
+
+}
+
+a:active{color: blueviolet;}
+
+a:visited{color: rgb(21, 104, 4);}
+
+.h1{font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:normal;
+    font-weight: lighter;
+    padding-bottom: 0%;
+   
+}
+.h5{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+color: rgb(92, 89, 89);
+padding-bottom: 0%;
+margin-bottom: auto;
+line-height: 150%;
+
+}
+
+.div2{margin-left: 9%;
+margin-right: 9%;}
+
+#div3{background-color: rgb(252, 252, 252);
+    margin-left:11% ;
+    margin-right: 10%;
+}
+
+.red1{width: 50%;
+height: 30px;
+background-color: rgb(252, 5, 5);  }
+
+.green2{ width: 50%;
+height:30px ;
+background-color: rgb(55, 0, 182);}
+
+.main1{display: flex; line-height: 2px; }
+
+#div4{background-color: rgb(252, 252, 252);
+    margin-left:11% ;
+    margin-right: 10%;
+}
+
+.main2{background-color: rgb(252, 252, 252);
+    margin-left:11% ;
+    margin-right: 10%;
+display: flex;}
+
+.main3{background-color: rgb(252, 252, 252);
+    margin-left:11% ;
+    margin-right: 10%;
+display: flex;
+}
+
+.main4{background-color: rgb(252, 252, 252);
+    margin-left:11% ;
+    margin-right: 10%;
+display: flex;}
+.main5{ background-color: rgb(252, 252, 252);
+    margin-left:11% ;
+    margin-right: 10%;
+    height: 30px;
+    background-color:rgb(14, 122, 0)  ; 
+    position: relative;
+}
+
+

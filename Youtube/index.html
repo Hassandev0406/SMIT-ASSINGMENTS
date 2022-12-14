@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment#04</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar" >
+    <a class="active" href="index.html"  >  Home</a>
+    <a href="index.html">Lectures</a>
+    <a href="index.html">Assignment</a>
+    <a href="index.html">Final project</a>
+    <a href="index.html">Labs</a>
+    <a href="index.html">Docs</a>
+
+
+  </div>
+  
+  <h1 class="h1" >Assignment 2: Static Web: HTML/CSS</h1> 
+ 
+  
+  <h5 style="font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(92, 89, 89);
+  padding-bottom: 0%;
+  margin-bottom: auto;
+  line-height: 100%; text-align: center; line-height: 1px; "> Due Sunday January 9.11:59pm PST</h5> 
+ <div class="div2" >
+ <h1 style="font-weight: lighter; font-family: Arial, Helvetica, sans-serif; " >Setup</h1>
+  
+<h5 class="h5" >Accept The Github Classroom <a style="font-family: Arial, Helvetica, sans-serif; font-weight: lighter; text-decoration: none; color: rgb(199, 48, 48); "
+   target="_blank"  href="index.html"> Assignment</a> and clone this repo that contains stencil code for Assignment 2. </h5>
+<h1 style="font-weight: lighter; font-family: Arial, Helvetica, sans-serif; "    >Introduction</h1>
+<h5 class="h5" >This is a multi-part assignment with the objective of marking you comfortable working with HTML and CSS. By the end of this assignment.you will have styled some rectangular blocks and created a simple verions of Twitter home page</h5>
+
+<h5 class="h5" >
+if this assignment seems overwhelming to you, please come see a TA at TA house to talk through some strategies for tracking it. We expect this assignment to be a time
+-consuming assignment as we cover a lot of fundamental techiniques. But with a good strategy. it can be finished in a reasonable
+amount of time.  <br> <br>
+Note: Only CSS and HTML will be used for this assignment.If you want to use JavaScript(or libraries such as jQuery) then feel free to, but we will only be
+ grading correctness on your CSS and HTML.
+ <br> <br>
+ if you can, <a style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; color: black;"  href="index.html">Start Early!</a>
+
+</h5>
+<h1 style="font-weight: lighter; font-family: Arial, Helvetica, sans-serif;  "    >Part One</h1>
+<h2 style="font-weight: lighter; font-family: Arial, Helvetica, sans-serif; line-height: 9px; "     >Specifications</h2>
+<h5 class="h5" >Now that you understand some of the basics of HTML and CSS Let's take a look at how to align HTML elements. There are multiple ways to align HTML elements, but in this part, we recommend using flexboxes as they are widely used in modern web development(for example Bootstrapv4 is built on top of flexboxes)
+<br> <br>
+Refer to this great webpage on how to use flexboxes: <a style="font-family: Arial, Helvetica, sans-serif; font-weight: lighter; text-decoration: none; color: rgb(199, 48, 48); "
+target="_blank"  href="index.html">CSS Flexbox Guide</a>
+<br> <br> Also Feel free to use online resources such as Stack Overflow,MDN,W3, and Google for reference <br> <br>
+When you open the provided HTML file <a style="font-family: Arial, Helvetica, sans-serif; font-weight: lighter; text-decoration: none; color: rgb(199, 48, 48); "
+target="_blank"  href="index.html"> <small> Part1/index.html </small> </a>, it should look like this
+
+</h5>
+   </div>
+   <div id="div3" style="line-height: 11px;" >
+<h5 style="line-height: 18px;" >Assignment 1
+  <br> <br>
+  Provided Example <br> <br>
+  Row 1
+</h5>
+
+<div class="main1" >
+  <div class="red1 " ></div>
+  <div class="green2" ></div>
+</div>
+<h5 style="line-height: 2px;" >Row 2</h5>
+<div style="height: 30px; width: 100%; background-color: rgb(14, 122, 0); " ></div>
+ <small> <b> Student TODOs </b> </small>
+
+ <h5 style="line-height: 2px;" >Row 3</h5>
+<div style="height: 30px; width: 100%; background-color: rgb(14, 122, 0); " ></div>
+<h5 style="line-height: 2px;" >Row 4</h5>
+<div style="height: 30px; width: 100%; background-color: rgb(14, 122, 0); " ></div>
+<h5 style="line-height: 2px;" >Row 5</h5>
+<div style="height: 30px; width: 100%; background-color: rgb(14, 122, 0); " ></div>
+<h5 style="line-height: 2px;" >Row 6</h5>
+
+<div style="height: 30px; width: 100%; background-color: rgb(14, 122, 0); " ></div>
+<h5 style="line-height: 2px;" >Row 7</h5>
+<div style="height: 30px; width: 100%; background-color: rgb(14, 122, 0); " ></div>
+<h5 style="line-height: 2px;" >Row 8</h5>
+<div style="height: 30px; width: 100%; background-color: rgb(14, 122, 0); " ></div>
+<h5 style="line-height: 2px;" >Row 9</h5>
+<div style="height: 30px; width: 100%; background-color: rgb(14, 122, 0); " ></div>
+
+
+   </div>
+   <div style="
+   margin-left:9% ;
+   margin-right: 9%;" >
+<hr>
+<h5 class="h5" style="line-height: 15px;" >As you can see, there are 9 rectangels.The styling anf makeup of the first two rectangles are already
+   built for you. your task is to apply stylings and add div elements inside of the next 7 green
+    rectangular blocks to create a webpage that like this    </h5>        
+
+
+   </div>
+   <div id="div4" style="line-height: 12px;" >
+    <h5  >Assignment 1
+      <br> <br>
+      Provided Examples  <br> <br>
+      Row1
+    </h5>
+   </div>
+   <div class="main2" >
+    <div style="width: 50%;
+    height: 30px;
+    background-color: rgb(252, 5, 5);  " ></div>
+    <div style="width: 50%;
+    height: 30px;
+
+    background-color:rgb(55, 0, 182); "  ></div> 
+   </div>
+
+   <div style="background-color: rgb(252, 252, 252);
+   margin-left:11% ;
+   margin-right: 10%;
+display: flex;" > 
+<h5>Row2</h5> </div>
+<div class="main3" >
+
+<div style="width: 95%;
+height: 30px;
+background-color: rgb(14, 122, 0);  "  ></div>
+<div style="width: 5%;
+height: 30px;
+background-color: rgb(55, 0, 182);  "  ></div> 
+
+</div>
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;" > <small>Student</small> TODOs <br>
+Row3
+</h5>
+
+</div>
+
+<div class="main4" >
+<div style="width: 5%;
+height: 30px;
+background-color:rgb(252, 5, 5) ;  "  ></div>
+<div style="width: 90%;
+height: 30px;
+background-color: rgb(14, 122, 0) ;
+  "   ></div>
+<div style="width: 5%;
+height: 30px;
+background-color: rgb(55, 0, 182);  "  ></div>
+
+</div>
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;" >  
+Row4
+</h5>
+
+</div>
+<div class="main4" >
+  <div style="width: 95%;
+  height: 30px;
+  background-color:rgb(252, 5, 5) ;  " ></div>
+  <div style="width: 5%;
+  height: 30px;
+  background-color: rgb(55, 0, 182);  "  ></div>
+</div>
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;">Row5</h5>
+</div >
+ 
+<div class="main5" >
+  <div style=" margin: auto;
+
+  width: 7px;
+   position: absolute;
+  background-color:rgb(252, 5, 5) ;
+  
+  bottom: 6px;
+  top: 6px;
+ margin-left: 48%;
+  padding: 13px;"></div>
+</div>
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;">Row6</h5>
+</div>
+
+<div class="main4" >
+<div style="width: 48%;
+height: 30px;
+background-color:rgb(252, 5, 5) ;  " ></div>
+<div style="width: 4%;
+height: 30px;
+background-color:rgb(55, 0, 182) ;  " ></div>
+<div style="width: 48%;
+height: 30px;
+background-color:rgb(252, 5, 5) ;  " ></div>
+</div>
+
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;">Row7</h5>
+</div>
+
+
+
+
+<div style="display: flex; background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+" >
+<div style="width: 50px ; height: 30px; background-color: red; " ></div>
+<div style="width: 96.6%;
+height: 30px;
+background-color:blue; position: relative; " >
+<div style="height: 6px; width: 100% ; top: 40%; position: absolute; background-color:green ; " ></div>
+
+</div>
+</div>
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;">Row8</h5>
+</div>
+
+<div class="main4" >
+<div   ></div>
+
+<div style=" width: 5% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+<div style=" width: 18.75% ; height: 30px; background-color: green " ></div>
+<div style=" width: 5% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+<div style=" width: 18.75% ; height: 30px; background-color: green " ></div>
+<div style=" width: 5% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+<div style=" width: 18.75% ; height: 30px; background-color: green " ></div>
+<div style=" width: 5% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+<div style=" width: 18.75% ; height: 30px; background-color: green " ></div>
+<div style=" width: 5% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+</div>
+ 
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;">Row9</h5>
+</div>
+
+<div class="main4" >
+  
+  
+  <div style=" width: 19% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  <div style=" width: 1% ; height: 30px; background-color: green " ></div>
+  <div style=" width: 19% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  <div style=" width: 1% ; height: 30px; background-color: green " ></div>
+  <div style=" width: 19% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  <div style=" width: 1% ; height: 30px; background-color: green " ></div>
+  <div style=" width: 19% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  <div style=" width: 1% ; height: 30px; background-color: green " ></div>
+  <div style=" width: 20% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  </div>
+
+</div>
+<div style="
+margin-left:9% ;
+margin-right: 9%;" >
+
+<h5 class="h5" style="line-height: 15px;" >Note that these rectangular blocks should be responsive. Here is what they look
+like when the window is thinner   </h5>        
+</div>
+ 
+<div style="background-color: rgb(255, 254, 254);
+margin-left:7.7% ;
+margin-right: 60%;" >
+
+<div id="div4" style="line-height: 12px;" >
+  <h5  >Assignment 1
+    <br> <br>
+    Provided Examples  <br> <br>
+    Row1
+  </h5>
+ </div>
+ <div class="main2" >
+  <div style="width: 50%;
+  height: 30px;
+  background-color: rgb(252, 5, 5);  " ></div>
+  <div style="width: 50%;
+  height: 30px;
+
+  background-color:rgb(55, 0, 182); "  ></div> 
+ </div>
+
+ <div style="background-color: rgb(252, 252, 252);
+ margin-left:11% ;
+ margin-right: 10%;
+display: flex;" > 
+<h5>Row2</h5> </div>
+<div class="main3" >
+
+<div style="width: 95%;
+height: 30px;
+background-color: rgb(14, 122, 0);  "  ></div>
+<div style="width: 5%;
+height: 30px;
+background-color: rgb(55, 0, 182);  "  ></div> 
+
+</div>
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;" > <small>Student</small> TODOs <br>
+Row3
+</h5>
+
+</div>
+
+<div class="main4" >
+<div style="width: 5%;
+height: 30px;
+background-color:rgb(252, 5, 5) ;  "  ></div>
+<div style="width: 90%;
+height: 30px;
+background-color: rgb(14, 122, 0) ;
+"   ></div>
+<div style="width: 5%;
+height: 30px;
+background-color: rgb(55, 0, 182);  "  ></div>
+
+</div>
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;" >  
+Row4
+</h5>
+
+</div>
+<div class="main4" >
+<div style="width: 95%;
+height: 30px;
+background-color:rgb(252, 5, 5) ;  " ></div>
+<div style="width: 5%;
+height: 30px;
+background-color: rgb(55, 0, 182);  "  ></div>
+</div>
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;">Row5</h5>
+</div >
+
+<div class="main5" >
+<div style=" margin: auto;
+
+width: 7px;
+ position: absolute;
+background-color:rgb(252, 5, 5) ;
+
+bottom: 6px;
+top: 6px;
+margin-left: 48%;
+padding: 13px;"></div>
+</div>
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;">Row6</h5>
+</div>
+
+<div class="main4" >
+<div style="width: 48%;
+height: 30px;
+background-color:rgb(252, 5, 5) ;  " ></div>
+<div style="width: 4%;
+height: 30px;
+background-color:rgb(55, 0, 182) ;  " ></div>
+<div style="width: 48%;
+height: 30px;
+background-color:rgb(252, 5, 5) ;  " ></div>
+</div>
+
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;">Row7</h5>
+</div>
+
+
+
+
+<div style="display: flex; background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+" >
+<div style="width: 50px ; height: 30px; background-color: red; " ></div>
+<div style="width: 96.6%;
+height: 30px;
+background-color:blue; position: relative; " >
+<div style="height: 6px; width: 100% ; top: 40%; position: absolute; background-color:green ; " ></div>
+
+</div>
+</div>
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;">Row8</h5>
+</div>
+
+<div class="main4" >
+<div   ></div>
+
+<div style=" width: 18% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  <div style=" width: 2.5% ; height: 30px; background-color: green " ></div>
+  <div style=" width: 18% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  <div style=" width: 2.5% ; height: 30px; background-color: green " ></div>
+  <div style=" width: 18% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  <div style=" width: 2.5% ; height: 30px; background-color: green " ></div>
+  <div style=" width: 18% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  <div style=" width: 2.5% ; height: 30px; background-color: green " ></div>
+  <div style=" width: 18% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+
+
+<!-- <div style=" width: 5% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+<div style=" width: 18.75% ; height: 30px; background-color: green " ></div>
+<div style=" width: 5% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+<div style=" width: 18.75% ; height: 30px; background-color: green " ></div>
+<div style=" width: 5% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+<div style=" width: 18.75% ; height: 30px; background-color: green " ></div>
+<div style=" width: 5% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+<div style=" width: 18.75% ; height: 30px; background-color: green " ></div>
+<div style=" width: 5% ; height: 30px; background-color: rgb(251, 255, 6); " ></div> -->
+</div>
+
+<div style="background-color: rgb(252, 252, 252);
+margin-left:11% ;
+margin-right: 10%;
+display: flex;"  >
+<h5 style="line-height: 15px;">Row9</h5>
+
+
+</div>
+
+<div class="main4" >
+  
+  
+  <div style=" width: 18% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  <div style=" width: 2.5% ; height: 30px; background-color: green " ></div>
+  <div style=" width: 18% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  <div style=" width: 2.5% ; height: 30px; background-color: green " ></div>
+  <div style=" width: 18% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  <div style=" width: 2.5% ; height: 30px; background-color: green " ></div>
+  <div style=" width: 18% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  <div style=" width: 2.5% ; height: 30px; background-color: green " ></div>
+  <div style=" width: 18% ; height: 30px; background-color: rgb(251, 255, 6); " ></div>
+  </div>
+
+</div>
+
+  <div style="
+  margin-left:9% ;
+  margin-right: 9%;" >
+  
+  <h5 class="h5" style="line-height: 15px;" >We will describe how each row will behave dynamically and provide some hints for a possible approach.  </h5>        
+  </div> 
+
+
+   <div style="background-color: rgb(255, 255, 255);
+   margin-left:11% ;
+   margin-right: 10%;"  >
+    <h5 class="h5" >3. For the third row, the red  and blue end rectangles should remain the same width , and the green space 
+      should shrink  <br> <br>  Possible Approach: Have a div with a red background and a div with 
+      a blue background, both with fixed width.Use an appropriate value for <span style="color:rgb(199, 48, 48) ;" ><i>Justify <br> <br>Content </i></span>
+    <br>
+    4.For the forth row, the blue end rectangle should remain the same width, and the re rectangle should shrink. <br> <br> Possible Approach: Have a div with a red background
+     and a div with blue background. Have fixed width on blue div. Use <span style="color:rgb(199, 48, 48) ;" ><i>Flex Grow. </i></span> <br> <br>
+     5.For the fifth row, the red square should remain the same size, but always remain in the center of the green rectangle. <br>
+       <br>
+     <i>Hint: Think about how to keep a div fixed size and how to align something in the absolute center of the parent element</i> <br> <br>
+     6. For the sisth row, the blue rectangle should remain the same size , while the red rectngles should shrink. The blue rectangle should remain in the  <br> <br> center of the row.
+     <br><br> <i>Hint: Use two red divs</i> <br> <br>
+     7. For the seventh row, the red rectangle should remain the same width <br> <br>
+     
+     <i>Hint: Nest divs and use <small> <span style="color:rgb(199, 48, 48) ;" >background-color: transparent</span> </small></i>
+       <br>  <br>
+       8. For the eighth row, the orange rectangles should remain the same size while the green space between them shrinks.
+       <br> <br>
+       9. For the ninth row, green space between the orange rectangles should remain the same width while the orange rectangles narrow.
+<br> <br>
+Try to style the boxes as closely to the solution image as possible don't worry about getting exact dimensions or grb values. We care about what structure, <br> <br>
+CSS styles you used, and the dynamic behavior of the page. However just for reference
+
+    </h5>
+
+  
+  
+  </div>
+
+  <div style="
+  margin-left:9% ;
+  margin-right: 9%;" >
+  
+  <h5 class="h5" style="line-height: 15px;" >The examples we provided with the first two rectangular blocks use flexboxes. You are not require to use flexboxes for the next7 rows, But we recommmend  <br>
+  it as it will also be useful in part 2 of this assignment <br>  <br>
+
+  You should only have to use the <small> <span style="color:rgb(199, 48, 48) ;"  >div</span>  </small>
+  html element to complete this assignment. Also, <b style="color: black;" >none of the divs you create inside of the provided wrapper divs
+    <br>  should have  </b> <small>  <span style="color:rgb(199, 48, 48) ;"  >background-color: green;</span>  </small>
+    But it is valid to specify non-green background colors for any divs, including the wrapper 
+    <br> <br>
+    Try to style the boxes as closely to the solution image as possible don't worry about getting exact dimensions or grb values. We care about what structure,  <br>
+CSS styles you used, and the dynamic behavior of the page. However just for reference
+  
+  
+  
+  </h5>        
+  </div> 
+
+
+  <div style="background-color: rgb(255, 255, 255);
+   margin-left:11% ;
+   margin-right: 10%;"  >
+   <ul class="h5" >
+
+    <li>The color of the boxes we used are <small><span style="color:rgb(199, 48, 48) ;"  >  background-color:  <b style=" color: beige;
+     background-color: rgb(233, 21, 21);" >red</b> </span>  
+     , 
+     <b style=" color: beige;
+     background-color: rgb(16, 0, 158);" >blue</b>, and <b style=" color: beige;
+     background-color: rgb(240, 114, 11);" >orange</b>
+     </small>
+     
+     </li>
+<li>  Some width/height values we used are  <small> <span style="color:rgb(199, 48, 48) ;"  >20px, 40px, 80px</span>  </small> </li>
+
+   </ul>
+  </div>
+
+  <div style="
+  margin-left:9% ;
+  margin-right: 9%;" >
+  <h5 class="h5" > You are not require to use bootstrap in this part. You can use if you want, but we actually recommend writing plain CSS jus for this part, inline CSS is <br>
+  acceptable, but you should generally avoid using inline CSS in the future</h5>
+</div>
+
+<div class="div2" >
+  <h1 style="font-weight: lighter; font-family: Arial, Helvetica, sans-serif; " >General Notes</h1>
+
+<h5 class="h5" >As a reminder, it's a good idea to run your HTML and CSS syntax through validators. You should also consider using an accessibility checker such as WAVE.</h5>
+
+<h1 style="font-weight: lighter; font-family: Arial, Helvetica, sans-serif; " >Troubleshooting</h1>
+
+<h5 class="h5" > There are hundreds of HTML and CSS tags, properties and values, and we do not expect students to learn each one by heart. However, this assignment <br>
+and the first lab are intended for you to intuitively understand the languages, and to be proficient at knowing how to tackle a design by the end of the  <br> semester
+<br> <br>
+if you're having problems. there are many guides on HTML and CSS online(CSS Tricks and MDN are your friends), as well as on our resources page <br>
+<br>
+As always, if you are stuck on a particular part, you can always talk to the friendly TAs or ask question on course piazza(check your email for a signup link)
+<br><br> 
+<b style="color: black;" >As a general rule of thumb, do not expect TAs to be albe to solve every web problem you have. Even the most adept web developer can struggle a <br>
+lot with specific CSS rules to use </b>
+
+</h5>
+</div >
+<br><br><br>
+
+<div style="background-color:    rgb(85, 85, 81);  margin: 0%;  height: 60px; border-color: rgb(145, 20, 20); " >
+<h4 style="text-align: center; padding-top: 1%; color: 
+white;
+font-family: Arial, Helvetica, sans-serif; font-weight: lighter; " > &#169; 2022 | Muhammad Umair Ahmad
+  <br> <span style="color: rgb(248, 103, 6);" > www.umairazmat.net </span> </h4>
+  <!-- <h4 style="text-align: center;  ; color: 
+  white;
+  font-family: Arial, Helvetica, sans-serif; font-weight: lighter; " >
+www.umairahmad.net </h4> -->
+
+
+</div>
+
+
+</body>
+</html>
