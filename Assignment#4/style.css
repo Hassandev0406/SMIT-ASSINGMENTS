@@ -8,7 +8,7 @@ font-weight: bold;
 color: black; opacity: 0.9; }
 
 
-.navbar a:hover{padding-bottom: 35px;
+.navbar a:hover{padding-bottom: 30px;
     border-bottom-style: solid;
     border-bottom-width: 3.1px;
     width: fit-content; color: rgb(26, 24, 24); font-size: large; transition: 0.1s; }
