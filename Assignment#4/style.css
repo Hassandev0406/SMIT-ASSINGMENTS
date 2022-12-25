@@ -1,0 +1,72 @@
+                          /* Navbar */
+
+             #main1{display: flex; position: sticky; }
+.navbar{  padding-left: 34%; padding-top: 4%; }
+.navbar a {text-decoration: none;  padding: 8px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: black; opacity: 0.9; }
+
+
+.navbar a:hover{padding-bottom: 35px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content; color: rgb(26, 24, 24); font-size: large; transition: 0.1s; }
+
+
+.navbar a:active{  color: rgb(143, 74, 62);}
+
+                           /* paragraph */
+
+#hr{ margin-top: 0px; color: rgb(26, 23, 23); }
+#p{text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 40px; font-weight:bold ; word-spacing: 3px; }
+#h5{ text-align: center; font-family: Cambria, Georgia, serif; font-weight: lighter; font-size: larger; }
+#img{border-radius: 400px; width: 50px;  }
+#h4{margin-top: 4%; padding-left: 19px; line-height: 23px; font-family: Arial, Helvetica, sans-serif;  }
+.facebook{border-radius: 6px; border-color: rgb(175, 175, 175); margin-left: 0px;
+    
+      width: 45px; height: 36px; opacity: 1;  }  
+
+.btn{margin-left: 250px; margin-top: 12px; }  
+.facebook:hover{box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(194, 32, 32, 0.19); opacity: 0.7; }
+.p{ font-family: 'Poppins';font-size: 16px; font-weight: bold;  color: rgb(37, 36, 36); }
+
+
+.btn2{text-align: center;}
+
+table,tr,th{border: 1px solid;  border-radius: 8px;  border-color: rgb(216, 209, 209); }
+
+.taab img:hover{padding-bottom: 3px;
+    
+    border-bottom-width: 0.2px;
+    width: fit-content; color: rgb(26, 24, 24); transition: 0.1s; box-shadow: 0 12px 16px 0}
+    .taab{padding-left: 34%;}
+  #span{font-family: 'poppins';  padding-left: 29%; font-size: small; font-weight: bold; }  
+  #span span{text-decoration: underline;}
+  #sign{padding-left: 28%;
+padding-right: 28%;
+
+}
+#up{background-color: rgb(255, 255, 255); width: 100%; height: 250px; border-color:solid black; border-top: 7px; border-style: solid;
+border-radius: 5px; }
+#email{ margin-left: 70px; width: 300px;  height: 35px; font-family: 'poppins'; border-radius: 2px; border-color: black; }
+
+
+#bbtn{background-color: black;  width: 100px; color:  bisque; height: 41px;  }
+
+#btnh button:hover{background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+     color: black; font-family: Arial, Helvetica, sans-serif; box-shadow: black 20px; }
+
+     #footer{width: 100%; height: 400px; background-color: black; margin-top: 90px; }
+
+     #foot{   color: white; font-family: Arial, Helvetica, sans-serif;
+        padding-left: 9px;
+        padding-top: 12px; word-spacing: 9px;  font-weight: boldER; font-size:large; }
+        #nav2{text-align: center;}
+        #nav2 a{color: white; padding: 12px; font-family:'poppins' ; }
+
+        #copy{font-family: 'poppins'; color: white; text-align: center; font-size: small;     }
