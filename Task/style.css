@@ -11,7 +11,7 @@ h1 {
     color: rgb(86, 84, 140);
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 2px;
     font-size: 30px;
 
 }
@@ -65,7 +65,7 @@ h1 {
 }
 
 #are {
-    padding-left: 135px;
+    padding-left: 100px;
     padding-top: 80px;
     font-family: 'poppins';
     color: rgb(224, 59, 59);
@@ -77,14 +77,14 @@ h1 {
     font-weight: bolder;
     color: #080808;
     font-family: 'poppins';
-    padding-left: 132px;
+    padding-left: 100px;
     margin-top: 1px;
     word-spacing: 4px;
 
 }
 
 #lorem {
-    padding-left: 135px;
+    padding-left: 100px;
     font-family: 'poppins';
     color: rgb(99, 96, 96);
     line-height: 30px;
@@ -100,7 +100,7 @@ h1 {
     cursor: pointer;
     transition: all 0.3s ease;
     transform: translateY(0);
-    margin-left: 131px;
+    margin-left: 100px;
 }
 
 .btn2:hover {
