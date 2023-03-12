@@ -1,0 +1,16 @@
+
+ /* Giving padding and margin to the body */
+*{padding: 0%;
+margin: 0%;}
+
+/* set a default font family for html code */
+html{font-family: 'poppins';
+background: #c09d9d;}
+
+/* Style h1 text here */
+.h1{text-align: center;
+padding-top:20% ;}
+
+/* Style h2 text here */
+.h2{text-align: center;
+padding-top: 225;}
